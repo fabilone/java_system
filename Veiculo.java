@@ -1,5 +1,6 @@
 public class Veiculo{
 
+  private String categoria;
   private String nome;
   private String marca;
   private String modelo;
@@ -14,6 +15,7 @@ public class Veiculo{
   private int quantpneus;
 
   public Veiculo(){
+    this.categoria = "";
     this.nome = "";
     this.marca = "";
     this.modelo = "";
@@ -28,7 +30,8 @@ public class Veiculo{
     this.quantpneus = 0;
   }
 
-  public Veiculo(String nome, String marca, String modelo, String cor, String placa, String combustivel, int ano, int velocidade, int quilometragem, int valor, int quantassentos, int quantpneus){
+  public Veiculo(String categoria, String nome, String marca, String modelo, String cor, String placa, String combustivel, int ano, int velocidade, int quilometragem, int valor, int quantassentos, int quantpneus){
+    this.categoria = categoria;
     this.nome = nome;
     this.marca = marca;
     this.modelo = modelo;
@@ -46,6 +49,7 @@ public class Veiculo{
 
   public void exibirInfo(){
     System.out.println("-------------------------------------------------------");
+    System.out.println("Categoria: "+this.categoria);
     System.out.println("Nome: "+this.nome);
     System.out.println("Marca: "+this.marca);
     System.out.println("Modelo: "+this.modelo);
@@ -57,7 +61,7 @@ public class Veiculo{
     System.out.println("Valor do Veiculo: "+this.valor);
     System.out.println("Quantidade de acentos do Veiculo: "+this.quantassentos);
     System.out.println("Quantidade de pneus: "+this.quantpneus);
-    System.out.println("-------------------------------------------------------");
+    //System.out.println("-------------------------------------------------------");
   }
 
 }

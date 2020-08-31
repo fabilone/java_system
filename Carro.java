@@ -11,8 +11,8 @@ public class Carro extends Veiculo{
         this.cintoTresPontos = "";
     }
 
-    public Carro(String nome, String marca, String modelo, String cor, String placa, String combustivel, int ano, int velocidade, int quilometragem, int valor, int quantassentos, int quantpneus, String freioABS, String tracaoDianteira, String cintoTresPontos){
-        super(nome, marca, modelo, cor, placa, combustivel, ano, velocidade, quilometragem, valor, quantassentos, quantpneus);
+    public Carro(String categoria, String nome, String marca, String modelo, String cor, String placa, String combustivel, int ano, int velocidade, int quilometragem, int valor, int quantassentos, int quantpneus, String freioABS, String tracaoDianteira, String cintoTresPontos){
+        super(categoria, nome, marca, modelo, cor, placa, combustivel, ano, velocidade, quilometragem, valor, quantassentos, quantpneus);
         this.freioABS = freioABS;
         this.tracaoDianteira = tracaoDianteira;
         this.cintoTresPontos = cintoTresPontos;
