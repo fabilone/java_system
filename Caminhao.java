@@ -3,7 +3,7 @@ public class Caminhao extends Veiculo{
     private int comprimento;
     private int carga;
     private String carroceria; //aberta ou fechada
-    private String modelocarga; //String[] {"VUC", "3/4", "Toco", "Truck", "Bitruck", "Cavalo mecanico 4x2"};
+    private String modelocarga; //VUC, 3/4, Toco, Truck, Bitruck, Cavalo mecanico 4x2
 
     public Caminhao(){
         super();
@@ -28,9 +28,4 @@ public class Caminhao extends Veiculo{
         System.out.println("Carroceria: "+this.carroceria);
         System.out.println("Modelo: "+this.modelocarga);
     }
-
-
-    /*public void printModelo(){
-        for(int i = 0; i < 6; i++) System.out.println(this.modelo[i]);
-    }*/
 }
