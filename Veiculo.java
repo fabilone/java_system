@@ -55,10 +55,11 @@ public class Veiculo{
     System.out.println("Modelo: "+this.modelo);
     System.out.println("Cor: "+this.cor);
     System.out.println("Placa: "+this.placa);
-    System.out.println("Combustivel: "+this.ano);
-    System.out.println("Velocidade: "+this.velocidade);
-    System.out.println("Quilometragem: "+this.quilometragem);
-    System.out.println("Valor do Veiculo: "+this.valor);
+    System.out.println("Combustivel: "+this.combustivel);
+    System.out.println("Ano: "+this.ano);
+    System.out.println("Velocidade: "+this.velocidade+" km/h");
+    System.out.println("Quilometragem: "+this.quilometragem+" km");
+    System.out.println("Valor do Veiculo: R$ "+this.valor);
     System.out.println("Quantidade de acentos do Veiculo: "+this.quantassentos);
     System.out.println("Quantidade de pneus: "+this.quantpneus);
     //System.out.println("-------------------------------------------------------");

@@ -18,14 +18,14 @@ public class Caminhao extends Veiculo{
         this.comprimento = comprimento;
         this.carga = carga;
         this.carroceria = carroceria;
-        this.modelocarga = modelo;
+        this.modelocarga = modelocarga;
     }
 
     public void exibirInfo(){
         super.exibirInfo();
-        System.out.println("Comprimento: "+this.comprimento);
-        System.out.println("Carga: "+this.carga);
+        System.out.println("Comprimento: "+this.comprimento+"m");
+        System.out.println("Carga: "+this.carga+" kg");
         System.out.println("Carroceria: "+this.carroceria);
-        System.out.println("Modelo: "+this.modelocarga);
+        System.out.println("Modelo de Carga: "+this.modelocarga);
     }
 }

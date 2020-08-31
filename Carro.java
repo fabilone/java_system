@@ -1,8 +1,8 @@
 public class Carro extends Veiculo{
 
-    private String freioABS;
-    private String tracaoDianteira;
-    private String cintoTresPontos;
+    private String freioABS; //Sim ou Nao
+    private String tracaoDianteira; //Sim ou Nao
+    private String cintoTresPontos; //Sim ou Nao
 
     public Carro(){
         super();
