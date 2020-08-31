@@ -10,6 +10,7 @@ public class MainClass{
     carro.exibirInfo();
     moto.exibirInfo();
     moto2.exibirInfo();
+    caminhao.exibirInfo();
   }
   
 }
