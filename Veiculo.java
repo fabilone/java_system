@@ -47,6 +47,10 @@ public class Veiculo{
 
   }
 
+  public void updateMarca(String marca){
+    this.marca = marca;
+  }
+
   public void exibirInfo(){
     System.out.println("-------------------------------------------------------");
     System.out.println("Categoria: "+this.categoria);
