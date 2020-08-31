@@ -10,6 +10,8 @@ public class Veiculo{
   private int velocidade;
   private int quilometragem;
   private int valor;
+  private int quantassentos;
+  private int quantpneus;
 
   public Veiculo(){
     this.nome = "";
@@ -22,9 +24,11 @@ public class Veiculo{
     this.velocidade = 0;
     this.quilometragem = 0;
     this.valor = 0;
+    this.quantassentos = 0;
+    this.quantpneus = 0;
   }
 
-  public Veiculo(String nome, String marca, String modelo, String cor, String placa, String combustivel, int ano, int velocidade, int quilometragem, int valor){
+  public Veiculo(String nome, String marca, String modelo, String cor, String placa, String combustivel, int ano, int velocidade, int quilometragem, int valor, int quantassentos, int quantpneus){
     this.nome = nome;
     this.marca = marca;
     this.modelo = modelo;
@@ -35,6 +39,8 @@ public class Veiculo{
     this.velocidade = velocidade;
     this.quilometragem = quilometragem;
     this.valor = valor;
+    this.quantassentos = quantassentos;
+    this.quantpneus = quantpneus;
 
   }
 
@@ -49,6 +55,8 @@ public class Veiculo{
     System.out.println("Velocidade: "+this.velocidade);
     System.out.println("Quilometragem: "+this.quilometragem);
     System.out.println("Valor do Veiculo: "+this.valor);
+    System.out.println("Quantidade de acentos do Veiculo: "+this.quantassentos);
+    System.out.println("Quantidade de pneus: "+this.quantpneus);
     System.out.println("-------------------------------------------------------");
   }
 

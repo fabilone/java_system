@@ -1,18 +1,21 @@
 public class Carro extends Veiculo{
 
-    private int quantassentos;
-    private int quantpneus; 
+    private String freioABS;
+    private String tracaoDianteira;
+    private String cintoTresPontos;
 
     public Carro(){
         super();
-        this.quantassentos = 0;
-        this.quantpneus = 0;
+        this.freioABS = "";
+        this.tracaoDianteira = "";
+        this.cintoTresPontos = "";
     }
 
     public void exibirInfo(){
         super.exibirInfo();
-        System.out.println("Quantidade de assentos: "+this.quantassentos);
-        System.out.println("Quantidade de pneus: "+this.quantpneus);
+        System.out.println("Freio ABS: "+this.freioABS);
+        System.out.println("Tracao dianteira: "+this.tracaoDianteira);
+        System.out.println("Cinto de tres pontos: "+this.cintoTresPontos);
     }
 
 
