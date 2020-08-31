@@ -2,10 +2,10 @@ import java.util.Random;
 
 public class threadCRUD extends Thread{
     private Random aleatorio;
+    private Veiculo[] veiculos;
     private int id;
     private int quantidade;
     private int tempo;
-    private Veiculo[] veiculos;
     private String[] marcaVeiculo;
     private String[] tipoCarga;
 
@@ -45,7 +45,23 @@ public class threadCRUD extends Thread{
                     //veiculos[i].exibirInfo();
                     Thread.sleep(tempo);
                 }
-            }               
+            }
+            //CRUD - Atualizando
+            if(id == 3){
+                for(int i = 0; i < quantidade; i++){
+                    System.out.println("Thread ID: "+id+" Atualizando...");
+                    Thread.sleep(tempo);
+                    veiculos[i].updateMarca("Paulo");
+                }
+            }
+            //CRUD - Excluindo
+            if(id == 4){
+                for(int i = 0; i < quantidade; i++){
+                    System.out.println("Thread ID: "+id+" Excluindo...");
+                    Thread.sleep(tempo);
+                    veiculos[i]= new Veiculo();
+                }
+            }                 
         } catch (Exception e) {
             System.out.println("Erro na thread do CRUD "+e.getMessage());
         }
