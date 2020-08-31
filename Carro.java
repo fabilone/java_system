@@ -1,4 +1,4 @@
-public class Carro extends Veiculos{
+public class Carro extends Veiculo{
 
     private int quantassentos;
     private int quantpneus; 

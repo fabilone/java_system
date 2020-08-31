@@ -1,4 +1,4 @@
-public class Veiculos{
+public class Veiculo{
 
   private String nome;
   private String marca;
@@ -11,7 +11,7 @@ public class Veiculos{
   private int quilometragem;
   private int valor;
 
-  public Veiculos(){
+  public Veiculo(){
     this.nome = "";
     this.marca = "";
     this.modelo = "";
@@ -24,7 +24,7 @@ public class Veiculos{
     this.valor = 0;
   }
 
-  public Veiculos(String nome, String marca, String modelo, String cor, String placa, String combustivel, int ano, int velocidade, int quilometragem, int valor){
+  public Veiculo(String nome, String marca, String modelo, String cor, String placa, String combustivel, int ano, int velocidade, int quilometragem, int valor){
     this.nome = nome;
     this.marca = marca;
     this.modelo = modelo;
