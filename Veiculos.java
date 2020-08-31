@@ -52,9 +52,4 @@ public class Veiculos{
     System.out.println("-------------------------------------------------------");
   }
 
-  public static void main(String[] args ){
-    Carro carro = new Carro();
-    carro.exibirInfo();
-  }
-
 }
