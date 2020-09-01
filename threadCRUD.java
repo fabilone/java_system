@@ -42,8 +42,8 @@ public class threadCRUD extends Thread{
             if(id == 2){
                 for(int i = 0; i < quantidade; i++){
                     System.out.println("Thread ID: "+id+" Lendo...");
-                    //veiculos[i].exibirInfo();
                     Thread.sleep(tempo);
+                    veiculos[i].exibirInfo();
                 }
             }
             //CRUD - Atualizando
