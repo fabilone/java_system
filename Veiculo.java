@@ -66,7 +66,6 @@ public class Veiculo{
     System.out.println("Valor do Veiculo: R$ "+this.valor);
     System.out.println("Quantidade de acentos do Veiculo: "+this.quantassentos);
     System.out.println("Quantidade de pneus: "+this.quantpneus);
-    //System.out.println("-------------------------------------------------------");
   }
 
 }
